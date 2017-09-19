@@ -1,0 +1,5 @@
+@font-face {
+  font-family: 'Circular';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Circular"), local("circular-medium"), url("https://www.designathon.ch/fonts/lineto-circular-medium.eot") format("eot"), url("https://www.designathon.ch/fonts/lineto-circular-medium.woff2") format("woff2"), url("https://www.designathon.ch/fonts/lineto-circular-medium.woff") format("woff"); }

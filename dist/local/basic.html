@@ -119,14 +119,10 @@
                         <td class="wrapper last">
 
                           <table class="twelve columns">
-                            <tr>
-                                <td class="six sub-columns">
-                                    <img src="images/200x50.png" width="200">
+                            <tr class="center">
+                                <td class="">
+                                  <a href="*|ARCHIVE|*" target="_blank" mc:edit="browser_link">View this email in your browser</a>
                                 </td>
-                                <td class="six sub-columns last" style="text-align:right; vertical-align:middle;">
-                                    <span class="template-label">BASIC</span>
-                                </td>
-                                <td class="expander"></td>
                             </tr>
                           </table>
 
@@ -286,10 +282,26 @@
                                 <tr>
                                     <td align="center">
                                         <center>
-                                            <p style="text-align:center;">
-                                                <a href="#">Terms</a> | 
-                                                <a href="#">Privacy</a> | 
+                                            <p style="text-align:center;" mc:edit="unsubscribe">
+                                                <a href="#">Terms</a> |
+                                                <a href="#">Privacy</a> |
                                                 <a href="#" mc:edit="unsubscribe">Unsubscribe</a>
+                                                <br>
+                                                *|IFNOT:ARCHIVE_PAGE|*
+                                                    *|LIST:DESCRIPTION|*
+                                                    <br>
+                                                    <br>
+                                                    <strong mc:edit="mailingaddress">Our mailing address is:</strong>
+                                                    <br>
+                                                    *|HTML:LIST_ADDRESS_HTML|* *|END:IF|*
+                                                    <br>
+                                                    <br>
+                                                    Want to change how you receive these emails?<br>
+                                                    You can <a href="*|UPDATE_PROFILE|*">update your preferences</a> or <a href="*|UNSUB|*">unsubscribe from this list</a>.
+                                                    <br>
+                                                    <br>
+                                                    *|IF:REWARDS|* *|HTML:REWARDS|*
+                                                *|END:IF|*
                                             </p>
                                         </center>
                                     </td>

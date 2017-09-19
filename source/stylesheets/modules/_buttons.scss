@@ -18,8 +18,7 @@ table.large-button td {
   width: auto !important;
   text-align: center;
   background: $button-bg-color;
-  border: 1px solid $button-border-color;
-  color: #ffffff;
+  color: $button-text-color;
   padding: 8px 0;
 }
 
@@ -47,7 +46,7 @@ table.large-button td a {
   font-weight: bold;
   text-decoration: none;
   font-family: Helvetica, Arial, sans-serif;
-  color: #ffffff;
+  color: $button-text-color;
   font-size: 16px;
 }
 
@@ -103,7 +102,7 @@ table.medium-button td a:visited,
 table.large-button:hover td a,
 table.large-button:active td a,
 table.large-button td a:visited {
-  color: #ffffff !important; 
+  color: $button-text-color !important;
 }
 
 table.secondary td {

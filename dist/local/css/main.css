@@ -77,9 +77,9 @@ body.outlook p {
   display: inline !important; }
 
 body, table.body, h1, h2, h3, h4, h5, h6, p, td {
-  color: #222222;
-  font-size: 14px;
-  font-family: Helvetica, Arial, sans-serif;
+  color: #000;
+  font-size: 16px;
+  font-family: "Circular", "Helvetica", "Arial", sans-serif;
   font-weight: normal;
   padding: 0;
   margin: 0;
@@ -87,98 +87,98 @@ body, table.body, h1, h2, h3, h4, h5, h6, p, td {
   line-height: 1.3; }
 
 body, table.body, p, td {
-  font-size: 14px;
-  line-height: 19px; }
+  font-size: 16px;
+  line-height: 21px; }
 
 p.lead, p.lede, p.leed {
-  font-size: 18px;
+  font-size: 30px;
   line-height: 21px; }
 
 h1 {
-  font-size: 40px;
-  color: #222222;
+  font-size: 46px;
+  color: #000;
   font-weight: normal;
   word-break: normal; }
   h1 a {
-    color: #2ba6cb;
+    color: #46df96;
     text-decoration: none; }
     h1 a:hover, h1 a:active, h1 a:focus, h1 a:visited {
-      color: #2795b6;
+      color: #30db8a;
       text-decoration: none; }
 
 h2 {
-  font-size: 36px;
-  color: #222222;
+  font-size: 41px;
+  color: #000;
   font-weight: normal;
   word-break: normal; }
   h2 a {
-    color: #2ba6cb;
+    color: #46df96;
     text-decoration: none; }
     h2 a:hover, h2 a:active, h2 a:focus, h2 a:visited {
-      color: #2795b6;
+      color: #30db8a;
       text-decoration: none; }
 
 h3 {
-  font-size: 32px;
-  color: #222222;
+  font-size: 36px;
+  color: #000;
   font-weight: normal;
   word-break: normal; }
   h3 a {
-    color: #2ba6cb;
+    color: #46df96;
     text-decoration: none; }
     h3 a:hover, h3 a:active, h3 a:focus, h3 a:visited {
-      color: #2795b6;
+      color: #30db8a;
       text-decoration: none; }
 
 h4 {
-  font-size: 28px;
-  color: #222222;
+  font-size: 32px;
+  color: #000;
   font-weight: normal;
   word-break: normal; }
   h4 a {
-    color: #2ba6cb;
+    color: #46df96;
     text-decoration: none; }
     h4 a:hover, h4 a:active, h4 a:focus, h4 a:visited {
-      color: #2795b6;
+      color: #30db8a;
       text-decoration: none; }
 
 h5 {
-  font-size: 24px;
-  color: #222222;
+  font-size: 28px;
+  color: #000;
   font-weight: normal;
   word-break: normal; }
   h5 a {
-    color: #2ba6cb;
+    color: #46df96;
     text-decoration: none; }
     h5 a:hover, h5 a:active, h5 a:focus, h5 a:visited {
-      color: #2795b6;
+      color: #30db8a;
       text-decoration: none; }
 
 h6 {
-  font-size: 20px;
-  color: #222222;
+  font-size: 23px;
+  color: #000;
   font-weight: normal;
   word-break: normal; }
   h6 a {
-    color: #2ba6cb;
+    color: #46df96;
     text-decoration: none; }
     h6 a:hover, h6 a:active, h6 a:focus, h6 a:visited {
-      color: #2795b6;
+      color: #30db8a;
       text-decoration: none; }
 
 p {
   margin-bottom: 10px; }
   p.lead {
-    font-size: 18px; }
+    font-size: 30px; }
 
 small {
-  font-size: 10px; }
+  font-size: 12px; }
 
 a {
-  color: #2ba6cb;
+  color: #46df96;
   text-decoration: underline; }
   a:hover, a:active, a:focus, a:visited {
-    color: #2795b6; }
+    color: #30db8a; }
 
 /* Alignment & Visibility Classes */
 table.center, td.center {
@@ -506,9 +506,8 @@ table.large-button td {
   display: block;
   width: auto !important;
   text-align: center;
-  background: #2ba6cb;
-  border: 1px solid #2284a1;
-  color: #ffffff;
+  background: #46df96;
+  color: #000;
   padding: 8px 0; }
 
 table.tiny-button td {
@@ -531,7 +530,7 @@ table.large-button td a {
   font-weight: bold;
   text-decoration: none;
   font-family: Helvetica, Arial, sans-serif;
-  color: #ffffff;
+  color: #000;
   font-size: 16px; }
 
 table.tiny-button td a {
@@ -579,7 +578,7 @@ table.medium-button td a:visited,
 table.large-button:hover td a,
 table.large-button:active td a,
 table.large-button td a:visited {
-  color: #ffffff !important; }
+  color: #000 !important; }
 
 table.secondary td {
   background: #e9e9e9;
@@ -644,46 +643,4 @@ table.google-plus td {
 table.google-plus:hover td {
   background: #CC0000 !important; }
 
-.panel {
-  background: #f2f2f2;
-  border: 1px solid #d9d9d9;
-  padding: 10px !important; }
-
-.sub-grid table {
-  width: 100%; }
-
-.sub-grid td.sub-columns {
-  padding-bottom: 0; }
-
 /* Import custom styles */
-/* Template-specific Styles */
-.template-label {
-  color: #ffffff;
-  font-weight: bold;
-  font-size: 11px; }
-
-.callout .wrapper {
-  padding-bottom: 20px; }
-
-.callout .panel {
-  background: #ECF8FF;
-  border-color: #b9e5ff; }
-
-.header {
-  background: #999999; }
-
-.connect .wrapper {
-  background: #ebebeb; }
-
-.connect h5 {
-  padding-bottom: 10px; }
-
-table.columns .text-pad {
-  padding-left: 10px;
-  padding-right: 10px; }
-
-table.columns .left-text-pad {
-  padding-left: 10px; }
-
-table.columns .right-text-pad {
-  padding-right: 10px; }
