@@ -1,16 +1,19 @@
-// Backgrounds
-$body-background: #ffffff;
+// Main Colors
+$brand-color: #46df96;
+$light-color: #fff;
 
+// Backgrounds
+$body-background: $light-color;
 
 // Text Colors
 $text-color: #000;
-$alt-text-color: #46df96;
+$alt-text-color: $brand-color;
 
 // Link Colors
-$link-color: #46df96;
+$link-color: $brand-color;
 $link-color-hover: darken($link-color, 5%);
 
 // Button Colors
-$button-bg-color: #46df96;
+$button-bg-color: $brand-color;
 $button-bg-color-hover: lighten($button-bg-color, 5%);
 $button-text-color: #000;

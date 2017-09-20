@@ -17,9 +17,11 @@ table.large-button td {
   display: block;
   width: auto !important;
   text-align: center;
-  background: $button-bg-color;
-  color: $button-text-color;
-  padding: 8px 0;
+  color: $text-color;
+  margin: 30px auto;
+  padding: 25px;
+  border: 2px solid $brand-color;
+  background-color: $light-color;
 }
 
 table.tiny-button td {
@@ -47,7 +49,6 @@ table.large-button td a {
   text-decoration: none;
   font-family: Helvetica, Arial, sans-serif;
   color: $button-text-color;
-  font-size: 16px;
 }
 
 table.tiny-button td a {
@@ -68,23 +69,19 @@ table.large-button td a {
 }
 
 table.button:hover td,
+table.tiny-button:hover td,
+table.small-button:hover td,
+table.medium-button:hover td,
+table.large-button:hover td,
 table.button:visited td,
 table.button:active td {
-  background: #2795b6 !important;
+  color: $brand-color;
 }
 
 table.button:hover td a,
 table.button:visited td a,
 table.button:active td a {
   color: #fff !important;
-}
-
-table.button:hover td,
-table.tiny-button:hover td,
-table.small-button:hover td,
-table.medium-button:hover td,
-table.large-button:hover td {
-  background: #2795b6 !important;
 }
 
 table.button:hover td a,
