@@ -178,7 +178,7 @@ p {
   p.lead {
     font-size: 38px; }
 
-small {
+.small {
   font-size: 14px; }
 
 a {
@@ -363,52 +363,52 @@ table.eleven .panel center {
 table.twelve .panel center {
   min-width: 560px; }
 
-.body .columns td.one,
-.body .column td.one {
+td.one,
+td.one {
   width: 8.333333%; }
 
-.body .columns td.two,
-.body .column td.two {
+td.two,
+td.two {
   width: 16.666666%; }
 
-.body .columns td.three,
-.body .column td.three {
+td.three,
+td.three {
   width: 25%; }
 
-.body .columns td.four,
-.body .column td.four {
+td.four,
+td.four {
   width: 33.333333%; }
 
-.body .columns td.five,
-.body .column td.five {
+td.five,
+td.five {
   width: 41.666666%; }
 
-.body .columns td.six,
-.body .column td.six {
+td.six,
+td.six {
   width: 50%; }
 
-.body .columns td.seven,
-.body .column td.seven {
+td.seven,
+td.seven {
   width: 58.333333%; }
 
-.body .columns td.eight,
-.body .column td.eight {
+td.eight,
+td.eight {
   width: 66.666666%; }
 
-.body .columns td.nine,
-.body .column td.nine {
+td.nine,
+td.nine {
   width: 75%; }
 
-.body .columns td.ten,
-.body .column td.ten {
+td.ten,
+td.ten {
   width: 83.333333%; }
 
-.body .columns td.eleven,
-.body .column td.eleven {
+td.eleven,
+td.eleven {
   width: 91.666666%; }
 
-.body .columns td.twelve,
-.body .column td.twelve {
+td.twelve,
+td.twelve {
   width: 100%; }
 
 td.offset-by-one {
@@ -448,6 +448,13 @@ td.expander {
   visibility: hidden;
   width: 0px;
   padding: 0 !important; }
+
+table.align-right {
+  margin-right: 0px;
+  margin-left: auto; }
+
+.spacer {
+  height: 40px; }
 
 table.columns .text-pad,
 table.column .text-pad {

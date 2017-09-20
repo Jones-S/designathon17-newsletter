@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>*|MC:SUBJECT|*</title>
         <link rel="stylesheet" href="css/main.css" />
-        <title>*|MC:SUBJECT|*</title>
+
         <!-- Media Queries -->
         <style>
             @font-face {
@@ -108,7 +108,9 @@
   table[class="body"] .right-text-pad {
     padding-left: 10px !important; }
   table[class="body"] .left-text-pad {
-    padding-right: 10px !important; } }
+    padding-right: 10px !important; }
+  h1 {
+    font-size: 30px; } }
 
         </style>
     </head>
@@ -122,23 +124,19 @@
     <tr>
         <td class="center" align="center">
             <center>
-
                 <table class="container">
                     <tr>
                         <td class="wrapper last">
-
                           <table class="twelve columns">
                             <tr class="center">
                                 <td class="">
-                                  <a href="*|ARCHIVE|*" target="_blank" mc:edit="browser_link">View this email in your browser</a>
+                                  <a class="small" href="*|ARCHIVE|*" target="_blank" mc:edit="browser_link">View this email in your browser</a>
                                 </td>
                             </tr>
                           </table>
-
                         </td>
                     </tr>
                 </table>
-
             </center>
         </td>
     </tr>
@@ -157,8 +155,8 @@
 
                             <table class="twelve columns">
                                 <tr>
-                                    <td>
-                                        <img mc:edit="main_image" src="images/dn-banner.jpg">
+                                    <td mc:edit="main_image">
+                                        <a href="https://www.designathon.ch/" title="Designathon.ch"><img src="images/dn-banner.jpg"></a>
                                     </td>
                                     <td class="expander"></td>
                                 </tr>
@@ -178,11 +176,9 @@
     <tr>
         <td class="center" align="center">
             <center>
-
                 <table class="container">
                     <tr>
                         <td class="wrapper last">
-
                             <table class="twelve columns">
                                 <tr>
                                     <td>
@@ -193,49 +189,30 @@
                                     </td>
                                     <td class="expander"></td>
                                 </tr>
-                                <tr>
-                                    <td mc:repeatable mc:hideable>
-                                        <h2 mc:edit="subtitle">Subtitle Designathon</h2>
-                                        <p mc:edit="secondary_text">
+                                <tr mc:repeatable mc:hideable>
+                                    <td mc:edit="section">
+                                        <h2>Subtitle Designathon</h2>
+                                        <p>
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                                         </p>
                                     </td>
                                     <td class="expander"></td>
                                 </tr>
                             </table>
-
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <!-- Button -->
-                            <table class="row">
-                                <tr>
-                                    <td class="center">
-
-                                        <table class="twelve columns">
-                                            <tr>
-                                                <td>
-
-                                                    <table class="button">
-                                                        <tr>
-                                                            <td mc:edit="button_link">Click Me!
-                                                            </td>
-                                                        </tr>
-                                                    </table>
-
-                                                </td>
-                                                <td class="expander"></td>
-                                            </tr>
-                                        </table>
-
-                                    </td>
-                                </tr>
-                            </table>
+                          <!-- Button -->
+                          <table class="button">
+                              <tr>
+                                  <td mc:edit="button_link">Click Me!
+                                  </td>
+                              </tr>
+                          </table>
                         </td>
                     </tr>
                 </table>
-
             </center>
         </td>
     </tr>
@@ -246,31 +223,24 @@
     <tr>
         <td class="center" align="center">
             <center>
-
                 <table class="container">
                     <tr>
                         <td class="wrapper last">
-
                             <table class="twelve columns">
                                 <tr>
                                     <td align="center">
                                         <center>
-                                            <p style="text-align:center;" mc:edit="unsubscribe">
-                                                <a href="#">Terms</a> |
-                                                <a href="#">Privacy</a> |
-                                                <a href="#" mc:edit="unsubscribe">Unsubscribe</a>
-                                                <br>
+                                            <p mc:edit="unsubscribe">
                                                 *|IFNOT:ARCHIVE_PAGE|*
                                                     *|LIST:DESCRIPTION|*
                                                     <br>
                                                     <br>
-                                                    <strong mc:edit="mailingaddress">Our mailing address is:</strong>
-                                                    <br>
-                                                    *|HTML:LIST_ADDRESS_HTML|* *|END:IF|*
-                                                    <br>
                                                     <br>
                                                     Want to change how you receive these emails?<br>
                                                     You can <a href="*|UPDATE_PROFILE|*">update your preferences</a> or <a href="*|UNSUB|*">unsubscribe from this list</a>.
+                                                    <br>
+                                                    <br>
+                                                    *|FACEBOOK:LIKE|*
                                                     <br>
                                                     <br>
                                                     *|IF:REWARDS|* *|HTML:REWARDS|*
@@ -281,21 +251,35 @@
                                     <td class="expander"></td>
                                 </tr>
                             </table>
-
                         </td>
                     </tr>
                 </table>
-
             </center>
         </td>
     </tr>
     <tr>
-      <td class="center">
+      <td>
         <center>
-          <table class="three columns">
+          <table class="container">
+            <tr mc:repeatable mc:label="Spacer">
+              <td>
+                <div class="spacer"></div>
+              </td>
+            </tr>
             <tr>
-              <td align="center">
-                <img src="images/designathon_mini_logo.svg" alt="designathon mini logo" />
+              <td>
+                <table class="three">
+                  <tr class="">
+                    <td>
+                      <a href="https://www.designathon.ch/" title="Designathon.ch" target="_blank" rel="nofollow"><img src="images/designathon_mini_logo.png" alt="designathon mini logo" /></a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr mc:repeatable mc:label="Spacer">
+              <td>
+                <div class="spacer"></div>
               </td>
             </tr>
           </table>

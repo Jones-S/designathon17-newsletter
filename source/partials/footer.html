@@ -2,31 +2,24 @@
     <tr>
         <td class="center" align="center">
             <center>
-
                 <table class="container">
                     <tr>
                         <td class="wrapper last">
-
                             <table class="twelve columns">
                                 <tr>
                                     <td align="center">
                                         <center>
-                                            <p style="text-align:center;" mc:edit="unsubscribe">
-                                                <a href="#">Terms</a> |
-                                                <a href="#">Privacy</a> |
-                                                <a href="#" mc:edit="unsubscribe">Unsubscribe</a>
-                                                <br>
+                                            <p mc:edit="unsubscribe">
                                                 *|IFNOT:ARCHIVE_PAGE|*
                                                     *|LIST:DESCRIPTION|*
                                                     <br>
                                                     <br>
-                                                    <strong mc:edit="mailingaddress">Our mailing address is:</strong>
-                                                    <br>
-                                                    *|HTML:LIST_ADDRESS_HTML|* *|END:IF|*
-                                                    <br>
                                                     <br>
                                                     Want to change how you receive these emails?<br>
                                                     You can <a href="*|UPDATE_PROFILE|*">update your preferences</a> or <a href="*|UNSUB|*">unsubscribe from this list</a>.
+                                                    <br>
+                                                    <br>
+                                                    *|FACEBOOK:LIKE|*
                                                     <br>
                                                     <br>
                                                     *|IF:REWARDS|* *|HTML:REWARDS|*
@@ -37,21 +30,35 @@
                                     <td class="expander"></td>
                                 </tr>
                             </table>
-
                         </td>
                     </tr>
                 </table>
-
             </center>
         </td>
     </tr>
     <tr>
-      <td class="center">
+      <td>
         <center>
-          <table class="three columns">
+          <table class="container">
+            <tr mc:repeatable mc:label="Spacer">
+              <td>
+                <div class="spacer"></div>
+              </td>
+            </tr>
             <tr>
-              <td align="center">
-                <img src="images/designathon_mini_logo.svg" alt="designathon mini logo" />
+              <td>
+                <table class="three">
+                  <tr class="">
+                    <td>
+                      <a href="https://www.designathon.ch/" title="Designathon.ch" target="_blank" rel="nofollow"><img src="images/designathon_mini_logo.png" alt="designathon mini logo" /></a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr mc:repeatable mc:label="Spacer">
+              <td>
+                <div class="spacer"></div>
               </td>
             </tr>
           </table>
