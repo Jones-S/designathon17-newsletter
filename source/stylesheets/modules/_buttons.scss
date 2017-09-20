@@ -1,15 +1,14 @@
 /* Buttons */
 
-table.button,
+table.table-button,
 table.tiny-button,
 table.small-button,
 table.medium-button,
 table.large-button {
   width: 100%;
-  overflow: hidden;
 }
 
-table.button td,
+table.table-button td,
 table.tiny-button td,
 table.small-button td,
 table.medium-button td,
@@ -18,10 +17,9 @@ table.large-button td {
   width: auto !important;
   text-align: center;
   color: $text-color;
-  margin: 30px auto;
   padding: 25px;
   border: 2px solid $brand-color;
-  background-color: $light-color;
+  background-color: $light-color !important;
 }
 
 table.tiny-button td {
@@ -40,7 +38,7 @@ table.large-button td {
   padding: 21px 0 18px;
 }
 
-table.button td a,
+table.table-button td a,
 table.tiny-button td a,
 table.small-button td a,
 table.medium-button td a,
@@ -68,25 +66,25 @@ table.large-button td a {
   font-size: 24px;
 }
 
-table.button:hover td,
+table.table-button:hover td,
 table.tiny-button:hover td,
 table.small-button:hover td,
 table.medium-button:hover td,
 table.large-button:hover td,
-table.button:visited td,
-table.button:active td {
+table.table-button:visited td,
+table.table-button:active td {
   color: $brand-color;
 }
 
-table.button:hover td a,
-table.button:visited td a,
-table.button:active td a {
+table.table-button:hover td a,
+table.table-button:visited td a,
+table.table-button:active td a {
   color: #fff !important;
 }
 
-table.button:hover td a,
-table.button:active td a,
-table.button td a:visited,
+table.table-button:hover td a,
+table.table-button:active td a,
+table.table-button td a:visited,
 table.tiny-button:hover td a,
 table.tiny-button:active td a,
 table.tiny-button td a:visited,
