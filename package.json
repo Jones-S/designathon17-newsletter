@@ -31,7 +31,7 @@
     "gulp-shell": "~0.4.2",
     "gulp-util": "3.0.6",
     "gulp-zip": "~3.0.2",
-    "node-sass": "4.5.1",
+    "node-sass": "4.13.1",
     "nodemailer": "1.4.0",
     "nodemailer-smtp-transport": "1.0.3",
     "yargs": "3.21.0"
